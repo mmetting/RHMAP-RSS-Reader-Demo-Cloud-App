@@ -2,13 +2,13 @@
 
 This is the server side API for the RSS Reader Demo client apps. It offers a REST-enpoint to retrieve RSS feeds in the following format:
 
-````
+```
 {
     "title": "Hello World",
     "image": "https://opensource.com/sites/default/files/images/life/weekly_news_roundup_tv.png",
     "teaser": "Candy oat cake halvah ice cream icing bear claw brownie pie ice cream. Powder topping sugar plum lollipop brownie lollipop oat cake cookie."
 }
-````
+```
 
 The Cloud Application calls out to an MBaaS Service, which serves as the connector to the public RSS feeds.
 
