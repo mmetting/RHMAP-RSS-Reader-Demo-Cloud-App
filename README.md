@@ -11,6 +11,7 @@ This is the server side API for the RSS Reader Demo client apps. It offers a RES
 ````
 
 # Begin RHMAP Documentation Part
+This part of the README.md makes the Cloud App testable from RHMAP's App Studio.
 
 # Group RSS Feeds
 
