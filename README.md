@@ -15,10 +15,8 @@ The Cloud Application calls out to an MBaaS Service, which serves as the connect
 The idea of the Cloud Application is, to be the public interface for mobile clients. Therefore server-side business logic could be implemented in it, to orchestrate or aggregate other service calls.
 Additionally, the Cloud Application has access to all server-side APIs exposed by the RHMAP SDK, like Push Notifications, Data Storage, Caching, Forms or Synchronisation Support.
 
-# Begin RHMAP Documentation Part
-This part of the README.md makes the Cloud App testable from RHMAP's App Studio. Please ignore, since the formatting is optimized for RHMAP.
-
 # Group RSS Feeds
+This part of the README.md makes the Cloud App testable from RHMAP's App Studio. Please ignore, since the formatting is optimized for RHMAP.
 
 # feeds [/feeds]
 
