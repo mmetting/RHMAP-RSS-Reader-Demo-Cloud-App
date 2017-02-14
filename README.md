@@ -60,7 +60,9 @@ fh.service({
 }
 ...
 ```
-To find the Mapping Service's UUID, open the correspondig MBaaS Service and copy the Service ID from the details screen:
+To find the Mapping Service's UUID, open the correspondig MBaaS Service and copy the Service ID from the details screen.
+
+Also make sure, your Cloud App is able to talk to the Mapping Service by either making the Mapping Service public or adding your project the access control list:
 
 ![alt text](./pictures/service_id.png "MBaaS Service ID")
 
