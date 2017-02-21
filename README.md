@@ -31,25 +31,21 @@ The following two MBaaS Service projects would need to be deployed to your RHMAP
 - Click the little plus sign in the Cloud Code Apps' section
 - Select `Import Existing App`
 - Click `Next`
-
 - Give the app a name: `RSS Cloud App`
 - Click `Next`
 - Select `Public Git Repository`
-- Insert the following Git Repo URL: `https://github.com/mmetting/RHMAP-RSS-Reader-Demo-Cloud-App.git`
-- Make sure, `master` is specified
-
+- Insert the following Git URL: `https://github.com/mmetting/RHMAP-RSS-Reader-Demo-Cloud-App.git`
+- Make sure, `master` is specified as a Git Branch
 ![alt text](./pictures/cloud_app_import.png "Import an exisiting Cloud Application from GitHub")
 
 - Click the button for `Import & Move on to Integration`
-
-![alt text](./pictures/cloud_app_import_done.png "Done")
-
 - Click `Finished - Take me My App`
+![alt text](./pictures/cloud_app_import_done.png "Done")
 
 ## Considerations
 Since the Cloud App requests RSS feeds from an MBaaS Service, you would need to change the following Service-UUID to match your deployed [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service):
 
-Open the file `lib/feeds.js` and change the `fh.service()`call:
+Open the file [`lib/feeds.js`](./lib/feeds.js) and change the `fh.service()`call:
 
 ```
 ...
