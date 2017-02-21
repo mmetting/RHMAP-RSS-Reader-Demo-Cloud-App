@@ -17,8 +17,10 @@ Additionally, the Cloud Application has access to all server-side APIs exposed b
 
 ## Prerequisites
 The following two MBaaS Service projects would need to be deployed to your RHMAP domain:
-- [Connector Service](https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector)
-- [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service)
+1. [Connector Service](https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector)
+2. [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service)
+
+> Start with importing the Connector Service!
 
 > Please import, configure and deploy them first, before you go ahead and create the Cloud Application, as the Cloud App would use the above mentioned [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service).
 
@@ -51,7 +53,7 @@ Open the file `lib/feeds.js` and change the `fh.service()`call:
 ```
 ...
 fh.service({
-    "guid": "uo5dkux7uuypsdh5jlqv2aen", // <- this service uuid would need to match your deployed MBaaS Service
+    "guid": "zretx4ciycwsfwiz67soj3ji", // <- this service uuid would need to match your deployed MBaaS Service
     "path": "/feeds",
     "method": "GET",
     "headers": {
