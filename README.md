@@ -21,7 +21,7 @@ The following two MBaaS Service projects would need to be deployed to your RHMAP
 1. [Connector Service](https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector)
 2. [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service)
 
-> Start with importing the Connector Service!
+> Start with importing the [Connector Service](https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector)!
 
 > Please import, configure and deploy them first, before you go ahead and create the Cloud Application, as the Cloud App would use the above mentioned [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service).
 
