@@ -1,6 +1,6 @@
 # RSS Cloud App
 
-This Node.js application is the server side API for the [RSS Reader Demo](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) client apps. It offers a REST-enpoint to retrieve RSS feeds in the following format:
+This Node.js application is the server side API for the [RSS Reader Demo](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) client apps. It offers a REST-endpoint to retrieve RSS feeds in the following format:
 
 ```
 {
@@ -17,6 +17,7 @@ Additionally, the Cloud Application has access to all server-side APIs exposed b
 
 ## Prerequisites
 The following two MBaaS Service projects would need to be deployed to your RHMAP domain:
+
 1. [Connector Service](https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector)
 2. [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service)
 
