@@ -25,7 +25,7 @@ The following two MBaaS Service projects would need to be deployed to your RHMAP
 
 > Please import, configure and deploy them first, before you go ahead and create the Cloud Application, as the Cloud App would use the above mentioned [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service).
 
-## Import as an exisiting Cloud Application into your project
+## Import as an existing Cloud Application into your project
 
 - Open your project in RHMAP's AppStudio
 - Click the little plus sign in the Cloud Code Apps' section
@@ -36,7 +36,7 @@ The following two MBaaS Service projects would need to be deployed to your RHMAP
 - Select `Public Git Repository`
 - Insert the following Git URL: `https://github.com/mmetting/RHMAP-RSS-Reader-Demo-Cloud-App.git`
 - Make sure, `master` is specified as a Git Branch
-![alt text](./pictures/cloud_app_import.png "Import an exisiting Cloud Application from GitHub")
+![alt text](./pictures/cloud_app_import.png "Import an existing Cloud Application from GitHub")
 
 - Click the button for `Import & Move on to Integration`
 - Click `Finished - Take me My App`
@@ -59,7 +59,7 @@ fh.service({
 }
 ...
 ```
-To find the Mapping Service's UUID, open the correspondig MBaaS Service and copy the Service ID from the details screen.
+To find the Mapping Service's UUID, open the corresponding MBaaS Service and copy the Service ID from the details screen.
 
 Also make sure, your Cloud App is able to talk to the Mapping Service by either making the Mapping Service public or adding your project the access control list:
 
